@@ -1,5 +1,4 @@
 # ViralSpiral.py - a spiral of spirals!
-
 import turtle
 t = turtle.Pen()
 t.penup()

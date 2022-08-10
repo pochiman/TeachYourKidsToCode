@@ -1,5 +1,4 @@
 # Rosette4.py
-
 import turtle
 t = turtle.Pen()
 for x in range(4):

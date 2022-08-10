@@ -1,5 +1,4 @@
 # MathHomework.py
-
 print("MathHomework.py")
 # Ask the user to enter a math problem
 problem = input("Enter a math problem, or 'q' to quit: ")

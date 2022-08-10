@@ -1,5 +1,4 @@
 # RosetteGoneWild.py
-
 import turtle
 t = turtle.Pen()
 # Ask the user for the number of circles in their rosette, default to 6

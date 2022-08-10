@@ -1,5 +1,4 @@
 # Rosette.py
-
 import turtle
 t = turtle.Pen()
 t.circle(100) # This makes our first circle (pointing north)

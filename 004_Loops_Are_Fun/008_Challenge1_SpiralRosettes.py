@@ -1,5 +1,4 @@
 # SpiralRosettes.py - challenge problem
-
 import turtle
 t = turtle.Pen()
 t.penup()
