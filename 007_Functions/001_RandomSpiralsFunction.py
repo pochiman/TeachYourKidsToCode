@@ -21,3 +21,6 @@ def random_spiral():
         t.left(91)
 for n in range(50):
     random_spiral()
+
+# This allows the window to stay up.
+turtle.done()

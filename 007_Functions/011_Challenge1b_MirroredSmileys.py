@@ -42,3 +42,6 @@ def draw_kaleido(x,y):
     draw_smiley(x,-y)
 
 turtle.onscreenclick(draw_kaleido)
+
+# This allows the window to stay up.
+turtle.done()

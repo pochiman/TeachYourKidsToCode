@@ -70,3 +70,6 @@ turtle.onkey(longer, ">")
 turtle.onkey(shorter, "<")
 draw_text()
 turtle.listen()
+
+# This allows the window to stay up.
+turtle.done()

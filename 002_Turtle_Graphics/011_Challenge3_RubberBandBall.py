@@ -10,3 +10,6 @@ for x in range(360):
     t.left(360/sides + 1)
     t.width(x*sides/200)
     t.left(90)
+
+# This allows the window to stay up.
+turtle.done()

@@ -15,3 +15,6 @@ for x in range(180):
     t.circle(x)                     # change the size to match the # of sides
     t.left(360 / sides + 1)         # turn 360 degrees / # of sides, plus 1
     t.width(x * sides / 200)        # make the pen larger as it goes outward
+
+# This allows the window to stay up.
+turtle.done()

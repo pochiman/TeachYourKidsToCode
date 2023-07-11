@@ -22,3 +22,6 @@ def draw_spiral(x,y, size):
         t.forward(m*2)
         t.left(92)
 turtle.onscreenclick(draw_kaleido)
+
+# This allows the window to stay up.
+turtle.done()

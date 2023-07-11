@@ -22,3 +22,6 @@ for x in range(100):
     t.pendown()     # now, write the user's name, bigger each time
     t.write(your_name, font = ("Arial", int( (x*2 + 4) / 4), "bold") )
     t.left(360/sides+2)      # turn left 360/sides+2 degrees for sides
+
+# This allows the window to stay up.
+turtle.done()

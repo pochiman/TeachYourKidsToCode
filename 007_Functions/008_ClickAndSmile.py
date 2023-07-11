@@ -35,3 +35,6 @@ def draw_smiley(x,y):
     t.goto(x+25, y+40)
     t.width(1)
 turtle.onscreenclick(draw_smiley)
+
+# This allows the window to stay up.
+turtle.done()

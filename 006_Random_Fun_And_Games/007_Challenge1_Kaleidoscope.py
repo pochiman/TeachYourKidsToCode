@@ -47,3 +47,6 @@ for n in range(50):
     for m in range(size):
         t.forward(m*2)
         t.right(360/sides + 2)
+
+# This allows the window to stay up.
+turtle.done()

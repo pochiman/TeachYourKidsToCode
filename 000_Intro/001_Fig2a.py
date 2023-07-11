@@ -6,3 +6,6 @@ for x in range(360):
     t.pencolor(colors[x%3])
     t.forward(x * 3)        
     t.left(120 - 1)
+
+# This allows the window to stay up.
+turtle.done()

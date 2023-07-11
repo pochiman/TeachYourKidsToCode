@@ -16,3 +16,6 @@ def spiral(x,y):
         t.forward(m*2)
         t.left(91)
 turtle.onscreenclick(spiral)
+
+# This allows the window to stay up.
+turtle.done()

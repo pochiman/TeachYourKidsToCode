@@ -13,3 +13,6 @@ for x in range(number):
     else:                   # Default to polygon
         t.forward (150)
     t.left(360/number)
+
+# This allows the window to stay up.
+turtle.done()

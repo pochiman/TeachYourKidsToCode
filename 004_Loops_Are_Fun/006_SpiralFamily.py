@@ -24,3 +24,6 @@ for x in range(100):
     t.pendown()                       # Draw the next family member's name
     t.write(family[x%len(family)], font = ("Arial", int((x+4)/4), "bold") )
     t.left(360/len(family) + 2)         # Turn left for our spiral
+
+# This allows the window to stay up.
+turtle.done()

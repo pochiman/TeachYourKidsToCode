@@ -14,3 +14,6 @@ for x in range(360):
     t.forward(x * 3 / sides + x)    # Change the size to match number of sides
     t.left(360 / sides + 1)         # Turn 360 degrees / number of sides, plus 1
     t.width(x * sides / 200)        # Make the pen larger as it goes outward
+
+# This allows the window to stay up.
+turtle.done()

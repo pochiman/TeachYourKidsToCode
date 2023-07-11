@@ -1,4 +1,5 @@
 # SuperSpiral.py
+import turtle
 import colorspiral
 import random
 for n in range(30):
@@ -8,4 +9,5 @@ for n in range(30):
     y = random.randint(-300,300)
     colorspiral.cspiral(sides, size, x, y)
 
-
+# This allows the window to stay up.
+turtle.done()

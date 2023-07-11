@@ -76,3 +76,6 @@ turtle.onkey(shorter, "<")
 turtle.onscreenclick(click)
 draw_text()
 turtle.listen()
+
+# This allows the window to stay up.
+turtle.done()

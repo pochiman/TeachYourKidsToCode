@@ -25,3 +25,6 @@ for m in range(100):
     t.sety(position[1])     # Go back to the big spiral's y location
     t.setheading(heading)   # Point in the big spiral's heading
     t.left(360/sides + 2)   # Aim at the next point on the big spiral
+
+# This allows the window to stay up.
+turtle.done()

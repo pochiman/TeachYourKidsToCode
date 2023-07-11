@@ -20,4 +20,3 @@ def cspiral(sides=6, size=360, x=0, y=0):
         t.forward(n * 3/sides + n)
         t.left(360/sides + 1)
         t.width(n*sides/100)
-

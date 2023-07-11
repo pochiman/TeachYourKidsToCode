@@ -13,3 +13,6 @@ for x in range(number_of_circles):
     t.pencolor('yellow')
     t.circle(50)
     t.left(360/number_of_circles)
+
+# This allows the window to stay up.
+turtle.done()

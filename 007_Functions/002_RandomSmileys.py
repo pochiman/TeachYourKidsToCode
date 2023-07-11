@@ -40,3 +40,6 @@ for n in range(50):
     y = random.randrange(-turtle.window_height()//2,
                          turtle.window_height()//2)
     draw_smiley(x,y)
+
+# This allows the window to stay up.
+turtle.done()

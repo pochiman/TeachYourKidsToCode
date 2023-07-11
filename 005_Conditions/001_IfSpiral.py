@@ -9,3 +9,6 @@ if answer == 'y':
         t.forward(x*2)
         t.left(89)
 print("Okay, we're done!")
+
+# This allows the window to stay up.
+turtle.done()

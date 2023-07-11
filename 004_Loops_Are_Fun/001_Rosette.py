@@ -8,3 +8,6 @@ t.left(90)    # Then the turtle turns left 90 degrees
 t.circle(100) # This makes our third circle (pointing south)
 t.left(90)    # Then the turtle turns left 90 degrees
 t.circle(100) # This makes our fourth circle (pointing east)
+
+# This allows the window to stay up.
+turtle.done()

@@ -13,3 +13,6 @@ turtle.onkeypress(up, "Up")
 turtle.onkeypress(left, "Left")
 turtle.onkeypress(right, "Right")
 turtle.listen()
+
+# This allows the window to stay up.
+turtle.done()
