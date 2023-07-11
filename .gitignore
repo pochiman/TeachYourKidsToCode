@@ -2,6 +2,7 @@ gitnotes.txt
 
 
 brew install python-tk
+python3.11 -m pip install pygame
 
 
 git add --all
